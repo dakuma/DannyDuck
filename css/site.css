@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
+body {
+  width: 100%;
+  margin: 0;
+  background: #333;
+}
+#game {
+  position: absolute;
+  left: calc(50% - 600px);
+  top: 10px;
+  z-index: 3;
+  cursor: none;
+  border-radius: 8px;
+  border: 3px solid #fff;
+}
+#soundEffect {
+  display: none;
+}
+#music {
+  display: none;
+}
+#menu {
+  position: absolute;
+  left: calc(50% - 150px);
+  top: 250px;
+  z-index: 13;
+  width: 300px;
+  height: 120px;
+  padding-top: 15px;
+  background: #ccc;
+  color: #333;
+  font-size: 2.6em;
+  font-weight: 700;
+  text-align: center;
+  display: none;
+  border-radius: 12px;
+  border: 3px solid #333;
+}
+  #menu > input {
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    background: rgba(255, 255, 255, 0.83);
+    color: #333;
+    font-size: .8em;
+    font-weight: 700;
+    border-radius: 12px;
+  }
+#HUD {
+  position: absolute;
+  z-index: 7;
+  background: rgba(255, 255, 255, 0.67);
+  border-bottom: 2px solid #555;
+  border-left: 3px solid #fff;
+  border-right: 3px solid #fff;
+  width: 1200px;
+  min-height: 52px;
+  top: 10px;
+  left: calc(50% - 600px);
+  font-family: "Zen Dots", cursive;
+  font-size: 2.8em;
+  font-weight: 700;
+  text-shadow: 1px 1px 7px rgba(150, 150, 150, 1);
+  color: #222;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  cursor: none;
+  pointer-events: none;
+}
+#score {
+  float: left;
+  margin: 0;
+  padding: 0;
+  margin-left: 33px;
+}
+#time {
+  float: right;
+  margin: 0;
+  padding: 0;
+  margin-right: 33px;
+}

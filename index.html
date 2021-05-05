@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/site.css">
+    <title>DuckDuck</title>
+</head>
+
+<body>
+
+    <!-- this is awesome -->
+    <audio id="music" src="" controls="none"></audio>
+    <audio id="soundEffect" src="" controls="none"></audio>
+    <div id="menu">
+        <span>Game Over</span><br>
+        <input type="button" value="restart" onclick="ResetGame();">
+    </div>
+    <div id="HUD">
+        <p id="score"></p>
+        <p id="time"></p>
+    </div>
+    <div id="lowerBound"></div>
+    <canvas id="game">Update your browser!</canvas>
+
+    <script src="js/bird.js"></script>
+    <script src="js/sight.js"></script>
+    <script src="js/shotgun.js"></script>
+    <script src="js/bullet.js"></script>
+    <script src="js/game.js"></script>
+</body>
+
+</html>
